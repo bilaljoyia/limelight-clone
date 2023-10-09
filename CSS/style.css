@@ -1,0 +1,151 @@
+/* Main Logo  */
+.header-heading-logo {
+  width: 12rem;
+}
+.search-bar {
+  width: 70%;
+  border-radius: 9px;
+  border: none;
+}
+
+/* ************ Navbar Section *********** */
+.my-nav-item {
+  width: 348px;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover + .dropdown-content {
+  display: block;
+}
+
+/* Carousel Section Here */
+.container-carousel {
+  width: 95%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.horizontal-row {
+  margin: 1rem auto;
+}
+
+/* *********** CATEGORY Section ********************************  */
+
+.img-box img {
+  width: 95%;
+}
+
+.img-box {
+  position: relative;
+}
+.row-position {
+  position: relative;
+  bottom: 62px;
+  color: white;
+  overflow: hidden;
+}
+.row-position h3 {
+  left: 104px;
+  position: relative;
+}
+
+/* ****** Product Page CSS Start Here *****  */
+
+/* ****** Product Section Column 1 Start Here *****  */
+
+.small-product-img {
+  width: 100%;
+  display: flex;
+}
+.Discription{
+  line-height: 2;
+}
+.img-height:hover{
+  height: 70vh;
+}
+
+/* ****** Product Section Column 3 Start Here *****  */
+
+.heading-product {
+  font-size: 1.68rem;
+}
+.product-size-box {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 38px;
+  height: 38px;
+}
+
+.quantity-box {
+    border: 1.5px solid black;
+    border-radius: 6px;
+    width: 125px;
+    text-align: center;
+}
+.small-size-cart{
+    font-size: 20px;
+    background-color: white;
+}
+.product-quantity-input{
+    border: none;
+    width: 60px;
+    text-align: center;
+}
+/* ****** Product Section Column 3 End Here *****  */
+
+
+
+/* ****** Modal CSS Start Here ***** */ 
+
+.vl{
+  border-right: 1px solid black;
+  width: 65%;
+  height: 100px;
+}
+
+/* ****** Modal CSS End Here ***** */ 
+
+
+ /* Footer Section Start Here */
+ .footer-bg{
+ background-color:#FAFAFA;
+ }
+ 
+@media (max-width: 600px) {
+  .search-bar {
+    display: none;
+  }
+
+  .fa-magnifying-glass {
+    display: none;
+  }
+  .fa-square-whatsapp {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) {
+  .my-toggle {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .dropdown-content {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .psudo-element::after{
+    content: "";
+    display: block;
+  }
+}
